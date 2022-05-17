@@ -1,0 +1,5 @@
+zakaz = float(input("Сумма заказа: "))
+nalog = round(zakaz*0.2, 2)
+chaevie = round(zakaz*0.18, 2)
+sum = round(nalog+chaevie,2)
+print("Налог:", nalog, "\nЧаевые:",chaevie ,"\nСумма налога и чаевых: ",sum)

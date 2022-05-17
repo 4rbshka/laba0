@@ -1,0 +1,5 @@
+deposit = float(input("Ващ депозит: "))
+year1 = round(deposit*1.04,2)
+year2 = round(year1*1.04,2)
+year3 = round(year2*1.04,2)
+print("Сумма в конце первого года: ",year1,"\nСумма в конце второго: ", year2,"\nСумма в конце третьего года: ",year3)
